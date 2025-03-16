@@ -6,4 +6,4 @@
 - Leonardo Nguyen - 20230805
 - Deolindo Soares - 20221446
 
-Repositório no GitHub:
+Repositório no GitHub: https://github.com/PedroDias0/PrimeStep
