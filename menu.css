@@ -69,3 +69,94 @@
   .nav-buttons .register:hover {
     background-color: #574fcf;
   }
+
+
+  /* Hero Section */
+.hero {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border-radius: 12px;
+  margin: 40px auto;
+  padding: 60px 30px;
+  text-align: center;
+  color: #fff;
+  max-width: 1100px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.search-bar .divider {
+  width: 1px;
+  background-color: #ccc;
+  height: 25px;
+}
+
+.search-bar button {
+  background-color: #3f75ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #2f5cd6;
+}
+
+/* Trusted Companies */
+.trusted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 1100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  gap: 30px;
+}
+
+.trusted p {
+  font-weight: 500;
+  color: #555;
+}
+
+.trusted img {
+  height: 28px;
+}
