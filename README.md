@@ -8,6 +8,7 @@
  - [Enquadramento das Unidades curriculares](#enquadramento-das-unidades-curriculares)
  - [Personas](#personas)
  - [Pesquisa de mercado sobre aplicações semelhantes ou com as quais pode comparar](#pesquisa-de-mercado-sobre-aplicações-semelhantes-ou-com-as-quais-pode-comparar)
+ - [Tecnologias utilizadas](#tecnologias-utilizadas)
 
 
 # Grupo
@@ -85,5 +86,18 @@ SAPO Emprego – Portal de emprego com oportunidades em Portugal.
  O Nosso diferencial na PrimeStep está na focagem exclusiva em universitários, fornecendo um ambiente otimizado para esse público com recursos personalizados para facilitar a entrada no mercado de trabalho.
 
 ## Tecnologias utilizadas:
+React:
+
+Spring Boot:
+
+MongoDB:
+
+Redux:
+
+Tailwind:
+
+Mantine:
+
+Tabler Icons:
 
 
