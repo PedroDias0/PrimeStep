@@ -1,6 +1,16 @@
 ![image](https://github.com/user-attachments/assets/75ce6bbd-a8fe-4f2e-b90a-0f47021564ec)
 
-# Elementos do Grupo 
+ ## Índice:
+ - [Grupo](#grupo)
+ - [Breve descrição da PrimeStep](#breve-descrição-da-primestep)
+ - [Objetivo geral](#objetivo-geral)
+ - [Objetivos específicos](#objetivos-específicos)
+ - [Enquadramento das Unidades curriculares](#enquadramento-das-unidades-curriculares)
+ - [Personas](#personas)
+ - [Pesquisa de mercado sobre aplicações semelhantes ou com as quais pode comparar](#pesquisa-de-mercado-sobre-aplicações-semelhantes-ou-com-as-quais-pode-comparar)
+
+
+# Grupo
 
 - Pedro Dias - 20230038
 - Leonardo Nguyen - 20230805
@@ -74,7 +84,6 @@ SAPO Emprego – Portal de emprego com oportunidades em Portugal.
 
  O Nosso diferencial na PrimeStep está na focagem exclusiva em universitários, fornecendo um ambiente otimizado para esse público com recursos personalizados para facilitar a entrada no mercado de trabalho.
 
-
-
+## Tecnologias utilizadas:
 
 
