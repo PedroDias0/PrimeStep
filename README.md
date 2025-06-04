@@ -86,18 +86,18 @@ SAPO Emprego – Portal de emprego com oportunidades em Portugal.
  O Nosso diferencial na PrimeStep está na focagem exclusiva em universitários, fornecendo um ambiente otimizado para esse público com recursos personalizados para facilitar a entrada no mercado de trabalho.
 
 ## Tecnologias utilizadas:
-React:
+React:   React é uma biblioteca JavaScript usada para construir interfaces de utilizador 
 
-Spring Boot:
+Spring Boot:  framework Java para construir backends 
 
-MongoDB:
+MongoDB: Base de Dados
 
-Redux:
+Redux: Redux é uma ferramenta de gestão de estado para aplicações React
 
-Tailwind:
+Tailwind: Tailwind é um framework CSS utilitário
 
-Mantine:
+Mantine:  biblioteca de componentes React
 
-Tabler Icons:
+Tabler Icons:  Tabler Icons é um conjunto de ícones em formato SVG
 
 

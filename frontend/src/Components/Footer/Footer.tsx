@@ -11,11 +11,9 @@ const Footer = () => {
                 <IconAnchor className="h-6 w-6" stroke={2.5} />
                 <div className="text-xl font-semibold">PrimStep</div>
             </div>
-            <div className="text-sm text-mine-shaft-300">Job portal with user profiles, skill updates, certifications, work experience and admin job postings.</div>
+            <div className="text-sm text-mine-shaft-300">Online platform with user profiles, skill updates, certifications, work experience, and job postings managed by administrators..</div>
             <div className="flex gap-3 text-bright-sun-400 [&>a]:bg-mine-shaft-900 [&>a]:p-2 [&>a]:rounded-full [&>a]:cursor-pointer hover:[&>a]:bg-mine-shaft-700">
-                <a href="https://www.instagram.com/code.marshal_/"><IconBrandInstagram /></a>
-                <a href="https://t.me/code_Marshal"><IconBrandTelegram /></a>
-                <a href="https://www.youtube.com/@Code.Marshal"><IconBrandYoutube /></a>
+          
             </div>
         </div>
         {
@@ -29,7 +27,7 @@ const Footer = () => {
     </div>
     <Divider/>
     <div data-aos="flip-left"  data-aos-offset="0" className="font-medium text-center p-5">
-        Designed & Developed By <a className="text-bright-sun-400 hover:underline font-semibold " href="https://github.com/Code-Mars">Chandrabhan Maurya</a>
+       
     </div>
     </div>:<></>
 }

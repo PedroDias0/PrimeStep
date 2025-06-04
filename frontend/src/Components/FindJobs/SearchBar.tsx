@@ -12,12 +12,12 @@ const SearchBar = () => {
     const filter=useSelector((state:any)=>state.filter);
     const [opened, { toggle }] = useDisclosure(false);
     const dispatch = useDispatch();
-    const [value, setValue] = useState<[number, number]>([0, 300]);
+    const [value, setValue] = useState<[number, number]>([0, 10000]);
     const handleChange = (event: any) => {
         dispatch(updateFilter({ salary: event }));
     }
     useEffect(()=>{
-        if(!filter.salary)setValue([0, 300]);
+        if(!filter.salary)setValue([0, 10000]);
     }, [filter])
 
 
@@ -42,9 +42,18 @@ const SearchBar = () => {
             <div className="w-1/5 lg-mx:w-1/4 lg-mx:mt-7 bs-mx:w-[30%] xs-mx:mb-1 sm-mx:w-[48%] text-sm text-mine-shaft-300 [&_.mantine-Slider-label]:!translate-y-10 xs-mx:w-full">
                 <div className="flex mb-1 justify-between">
                     <div>Salary</div>
-                    <div>&#8377;{value[0]} LPA - &#8377;{value[1]} LPA</div>
+                   <div>€{value[0]} - €{value[1]}</div> {/* Alteração*/}
                 </div>
-                <RangeSlider color="brightSun.4" size="xs" value={value} onChange={setValue} onChangeEnd={handleChange} />
+               <RangeSlider
+  min={0}
+  max={10000}
+  color="brightSun.4"
+  size="xs"
+  value={value}
+  onChange={setValue}
+  onChangeEnd={handleChange}
+/>
+
             </div>
         </div>
         </Collapse>
